@@ -8,8 +8,20 @@ class NewzrArticle extends HTMLElement {
     set article(article){
         this.root.innerHTML = `
             <style>
-                img {
-                    width: 50%;
+                a{
+                    display: block;
+                    flex-direction: column;
+                    text-decoration: none;
+                    color: inherit;
+                    padding-bottom: 30px;
+                    padding:margin: 20px;
+                }
+                img{
+                    width: 100%;
+                    display: block;
+                }
+                h2{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
                 }
             </style>
             <a href="${article.url}">
