@@ -12,9 +12,7 @@ In principle you can use node or http to serve this app. However, there is a sim
 * 1. Open the project in Visual Studio Code.
 * 2. Run the application by clicking on the "Go Live" button.
 
-[[/images/vscode-live-server.jpg|live server button]]
-
-
+![live server button](/images/vscode-live-server.jpg)
 
 ## Usage
 
