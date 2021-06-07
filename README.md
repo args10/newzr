@@ -1,2 +1,2 @@
 # newzr
-A lightweight and user-friendly news application
+A lightweight, user-friendly application for local news.
