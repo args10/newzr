@@ -3,11 +3,16 @@ A lightweight, user-friendly application for local news.
 
 ## Prerequisites
 
-VS Code: https://code.visualstudio.com/
-Live Server Plugin: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer 
+* VS Code: https://code.visualstudio.com/
+* Live Server Plugin: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer 
 
 ## Installation
-In principle you can use service like node or http to run this app. The app does not have a "backend" yet and all of the code (including fetching data from newsapi) is written in the frontend. For the sake of simplicity 
+In principle you can use node or http to serve this app. However, there is a simpler way to run this app. The app does not have a "backend" yet and all of the code (including fetching data from newsapi) is written as the part of the UI. For the sake of simplicity just do the following to run the app and see the results in you browser:
+
+* 1. Open the project in Visual Studio Code.
+* 2. Start by clicking on the "Go Live" Button
+![picture alt](https://raw.githubusercontent.com/ritwickdey/vscode-live-server/master/images/Screenshot/vscode-live-server-statusbar-3.jpg/200x150 "Title is optional")
+
 
 ## Usage
 
