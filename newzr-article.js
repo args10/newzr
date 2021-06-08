@@ -15,18 +15,34 @@ class NewzrArticle extends HTMLElement {
                     color: inherit;
                     padding-bottom: 30px;
                     padding:margin: 20px;
+                    
+
                 }
                 img{
                     width: 100%;
+                    height: 250px;
                     display: block;
+                    overflow: hidden;
                 }
                 h2{
+                    color:black;
+                    font-size: 1.5em;
                     font-family: Georgia, 'Times New Roman', Times, serif;
+
+                }
+                p{
+                    color: grey;
+                    font-size: 1.4em;
+                    font-family: Roboto;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: wrap;
                 }
             </style>
             <a href="${article.url}">
-                <h2>${article.title}</h2>
                 <img src ="${article.urlToImage}">
+                <h2>${article.title}</h2>
+                
                 <p>${article.description}</p>
             </a>
         `;

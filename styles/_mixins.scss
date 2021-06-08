@@ -1,0 +1,7 @@
+@mixin flexCenter($direction) {
+    flex-direction: $direction;
+}
+
+@mixin h1Color ($color){
+    color: $color;    
+}
