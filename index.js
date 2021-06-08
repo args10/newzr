@@ -23,9 +23,10 @@ async function fetchNews(){
     const main = document.querySelector('main');
     json.articles.forEach(article => {
         const el = document.createElement('newzr-article');
-        if(article.urlToImage){
+        if(article.urlToImage && article.description){
             el.article = article;
+            main.appendChild(el);
         }
-        main.appendChild(el);
+        
     });
 }

@@ -14,9 +14,6 @@ class NewzrArticle extends HTMLElement {
                     text-decoration: none;
                     color: inherit;
                     padding-bottom: 30px;
-                    padding:margin: 20px;
-                    
-
                 }
                 img{
                     width: 100%;
@@ -28,7 +25,6 @@ class NewzrArticle extends HTMLElement {
                     color:black;
                     font-size: 1.5em;
                     font-family: Georgia, 'Times New Roman', Times, serif;
-
                 }
                 p{
                     color: grey;
@@ -42,7 +38,6 @@ class NewzrArticle extends HTMLElement {
             <a href="${article.url}">
                 <img src ="${article.urlToImage}">
                 <h2>${article.title}</h2>
-                
                 <p>${article.description}</p>
             </a>
         `;
