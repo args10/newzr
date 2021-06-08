@@ -53,8 +53,8 @@ body main newzr-article {
 }
 
 body main newzr-article:hover {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
