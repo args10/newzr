@@ -1,6 +1,9 @@
 # Newzr.
 A lightweight, user-friendly application for local news.
 
+![newzr screenshot](/images/newzr.JPG)
+
+
 ## Prerequisites
 
 * VS Code: https://code.visualstudio.com/
