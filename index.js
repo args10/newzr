@@ -20,18 +20,20 @@ window.addEventListener('load',()=>{
 //TODO: Exception handling
 async function fetchNews(){
     const res = await fetch(topHeadLinesUrl);
-    const json =await res.json();
+    const json = await res.json();
+    const main = document.querySelector('main');
+    var fragment = new DocumentFragment()
 
     //log all articles returned from newspi
     console.table(json.articles, ["title","description","content"]);
 
-    const main = document.querySelector('main');
     json.articles.forEach(article => {
-        const el = document.createElement('newzr-article');
         //show pnly the articles having both images and a description
         if(article.urlToImage && article.description){
+            const el = document.createElement('newzr-article');
             el.article = article;
-            main.appendChild(el);
+            fragment.appendChild(el);
         }
+        main.appendChild(fragment);
     });
 }
