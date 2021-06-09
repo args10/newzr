@@ -1,5 +1,13 @@
 body {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: #343436;
@@ -29,6 +37,9 @@ body main {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 body main newzr-article {
@@ -74,6 +85,13 @@ body main newzr-article a h2 {
 
 body main newzr-article a p {
   color: red;
+}
+
+foooter p {
+  font-size: 0.5em;
+  padding: 3em;
+  padding-top: 5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-image {
