@@ -28,7 +28,7 @@ async function fetchNews(){
     const main = document.querySelector('main');
     json.articles.forEach(article => {
         const el = document.createElement('newzr-article');
-        //show articles having both images and a description
+        //show pnly the articles having both images and a description
         if(article.urlToImage && article.description){
             el.article = article;
             main.appendChild(el);
