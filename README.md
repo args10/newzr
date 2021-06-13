@@ -12,14 +12,14 @@ A lightweight, user-friendly application for local news.
 ## Installation
 In principle, you may use node or http to serve this app. However, there is a simpler way. The app does not (yet) have a "backend" and all of the code (including fetching data from newsapi) is written as part of the UI. For the sake of simplicity, follow below steps and directly see the results in you browser:
 
-* 1. Open the project in Visual Studio Code.
-* 2. Run the application by clicking on the "Go Live" button (see Live Server Plugin)
+ 1. Open the project in Visual Studio Code.
+ 2. Run the application by clicking on the "Go Live" button (see Live Server Plugin)
 
 ![live server button](/images/vscode-live-server.jpg)
 
 ## Usage
 
-Open http://localhost:5500/ in a modern (such chrome,edge or firefox) browser.
+Open http://localhost:5500/ in a modern (such chrome, edge or firefox) browser.
 
 ## Contributing
 
