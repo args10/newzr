@@ -45,6 +45,12 @@ class NewzrArticle extends HTMLElement {
                     font-size: 1.5em;
                     font-family: Georgia, 'Times New Roman', Times, serif;
                 }
+                h3{
+                    color:black;
+                    font-size: 1em;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    margin: 3px 0px 0px 0px;
+                }
                 p{
                     color: grey;
                     font-size: 1.4em;
@@ -56,6 +62,7 @@ class NewzrArticle extends HTMLElement {
             </style>
             <a href="${article.url}">
                 <img src ="${article.urlToImage}">
+                <h3>${article.source.name}</h3>
                 <h2>${article.title}</h2>
                 <p>${article.description}</p>
             </a>
